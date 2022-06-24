@@ -1,23 +1,25 @@
 ```bash
-$ pkg update && apt upgrade
+$ pkg update && pkg upgrade
 
-$ pkg install python git
+$ pkg install python2
 
-$ pkg install play-audio 
+$ pip2 install bs4
 
-$ pip install requests mechanize
+$ pip2 install requests
 
-$ pip install rich bs4
+$ pip2 install mechanize
 
-$ pip install --upgrade pip 
+$ pkg install git
 
 $ rm -rf Tbl
 
-$ git clone https://github.com/FANORA-XD/Tbl
-
-$ ls ( L kecil ) 
+$ git clone https://github.com/FANORA-XD/Tbl
 
 $ cd Tbl
+
+$ ls
+
+$ git pull
 
 $ python Tbl³.py
 ```
